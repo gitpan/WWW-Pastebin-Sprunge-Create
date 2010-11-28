@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package WWW::Pastebin::Sprunge::Create;
 BEGIN {
-  $WWW::Pastebin::Sprunge::Create::VERSION = '0.001';
+  $WWW::Pastebin::Sprunge::Create::VERSION = '0.002';
 }
 # ABSTRACT: create new pastes on sprunge.us
 
@@ -122,13 +122,15 @@ sub _set_error {
 
 =pod
 
+=encoding utf-8
+
 =head1 NAME
 
 WWW::Pastebin::Sprunge::Create - create new pastes on sprunge.us
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -283,8 +285,8 @@ The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
 site near you, or see L<http://search.cpan.org/dist/WWW-Pastebin-Sprunge-Create/>.
 
-The development version lives at L<http://github.com/doherty/WWW-Pastebin-Sprunge-Create>
-and may be cloned from L<git://github.com/doherty/WWW-Pastebin-Sprunge-Create>.
+The development version lives at L<http://github.com/doherty/WWW-Pastebin-Sprunge-Create.git>
+and may be cloned from L<git://github.com/doherty/WWW-Pastebin-Sprunge-Create.git>.
 Instead of sending patches, please fork this project using the standard
 git and github infrastructure.
 
@@ -297,15 +299,14 @@ L<http://github.com/doherty/WWW-Pastebin-Sprunge-Create/issues>.
 
 =head1 AUTHOR
 
-Mike Doherty <doherty@cs.dal.ca>
+Mike Doherty <doherty@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Mike Doherty.
+This software is copyright (c) 2010 by Mike Doherty.
 
-This is free software, licensed under:
-
-  The GNU General Public License, Version 3, June 2007
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
 

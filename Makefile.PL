@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.31;
 
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'create new pastes on sprunge.us',
-  'AUTHOR' => 'Mike Doherty <doherty@cs.dal.ca>',
+  'AUTHOR' => 'Mike Doherty <doherty@cpan.org>',
   'BUILD_REQUIRES' => {
     'File::Find' => '0',
     'File::Temp' => '0',
@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   },
   'DISTNAME' => 'WWW-Pastebin-Sprunge-Create',
   'EXE_FILES' => [],
-  'LICENSE' => 'gpl',
+  'LICENSE' => 'perl',
   'NAME' => 'WWW::Pastebin::Sprunge::Create',
   'PREREQ_PM' => {
     'Carp' => '0',
@@ -33,7 +33,7 @@ my %WriteMakefileArgs = (
     'URI' => '0',
     'overload' => '0'
   },
-  'VERSION' => '0.001',
+  'VERSION' => '0.002',
   'test' => {
     'TESTS' => 't/*.t'
   }
